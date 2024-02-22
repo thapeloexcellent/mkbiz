@@ -1,0 +1,30 @@
+.banner {
+    background: url("../images/istockphoto-475268006-612x612.jpg"), radial-gradient(#444, #aaa);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-color: gray; */
+    height: 400px;
+    text-align: center;
+    justify-items: center;
+}
+
+.about_banner {
+    background: url("../images/shopping-4000414_1280.jpg"), radial-gradient(#444, #aaa);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-color: gray; */
+    height: 400px;
+    text-align: center;
+    justify-items: center;
+}
+
+.result-logo {
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Maintain aspect ratio */
+}

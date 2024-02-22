@@ -1,0 +1,10 @@
+.banner {
+    /* background: url("../images/banner/contact.png"), radial-gradient(#444, #aaa);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+    background-color: blue;
+    height: 400px;
+  }
