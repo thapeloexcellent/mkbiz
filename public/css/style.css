@@ -28,3 +28,26 @@
     height: 200px; /* Set the desired height */
     object-fit: cover; /* Maintain aspect ratio */
 }
+
+/* Loader styles */
+.loader {
+    border-top-color: #3498db;
+    border-bottom-color: #3498db;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Overlay styles */
+.overlay {
+    /* Adjust opacity as needed */
+    opacity: 0.25;
+}
+
