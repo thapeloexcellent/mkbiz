@@ -112,10 +112,12 @@
             }
 
             function displayBusinesses(latitude, longitude) {
+                var category = "restaurant";
                 $.ajax({
                     type: 'GET',
                     url: '/search-businesses',
                     data: {
+                        category: category,
                         location: latitude + ',' + longitude,
                     },
                     success: function(data) {
